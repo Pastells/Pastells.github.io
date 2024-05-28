@@ -5,7 +5,7 @@ blog:
   navigation_title: blog
 categories:
   fun: diversão
-  work: trabalho
+  work: feina
 citation:
   bibtex: "ou como uma citação em BibTeX:"
   introduction: "Se você achou isso útil, por favor cite como:"
@@ -64,35 +64,34 @@ cv:
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
   Desenvolvido em <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> com o tema <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>.
   Hospedado por <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Fotos do <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 latest_posts: últimas postagens
 months:
   long:
-    january: Janeiro
-    february: Fevereiro
-    march: Março
-    april: Abril
-    may: Maio
-    june: Junho
-    july: Julho
-    august: Agosto
-    september: Setembro
-    october: Outubro
-    november: Novembro
-    december: Dezembro
+    january: de gener
+    february: de febrer
+    march: de març
+    april: d'abril
+    may: de maig
+    june: de juny
+    july: de juliol
+    august: d'agost
+    september: de setembre
+    october: de octubre
+    november: de novembre
+    december: de decembre
   short:
-    january: Jan
-    february: Fev
-    march: Mar
-    april: Abr
-    may: Mai
-    june: Jun
-    july: Jul
-    august: Ago
-    september: Set
-    october: Out
-    november: Nov
-    december: Dez
+    january: gen
+    february: febr
+    march: març
+    april: abr
+    may: maig
+    june: juny
+    july: jul
+    august: ag
+    september: set
+    october: oct
+    november: nov
+    december: dec
 news: novidades
 no_news: Nenhuma novidade no momento...
 pagination:
