@@ -1,70 +1,70 @@
-archive_category: um arquivo de postagens desta categoria
-archive_tag: um arquivo de postagens com este marcador
-archive_year: um arquivo de postagens deste ano
+archive_category: un arxiu d'apunts a aquesta categoria 
+archive_tag: un arxiu d'apunts amb aquest tag
+archive_year: un arxiu d'apunts d'aquest any 
 blog:
   navigation_title: blog
 categories:
-  fun: diversão
+  fun: diversió
   work: feina
 citation:
-  bibtex: "ou como uma citação em BibTeX:"
-  introduction: "Se você achou isso útil, por favor cite como:"
-contact_note: Você pode até adicionar uma pequena observação sobre qual dessas é a melhor maneira de entrar em contato com você.
+  bibtex: "o com a entrade de BibTeX:"
+  introduction: "Si t'ha semblat útil, cita-ho:"
+contact_note: Em podeu contactar per correu electrònic o LinkedIn.
 cv:
-  address: Endereço
-  area: Área
-  awarder: Premiado por
-  awards: Prêmios
-  basics: Informações gerais
-  certificates: Certificados
-  city: Cidade
-  countryCode: Código do país
+  address: Adreça
+  area: Àrea
+  awarder: Premiat per
+  awards: Premis
+  basics: Informació general
+  certificates: Certificats
+  city: Ciutat
+  countryCode: Codi de país 
   courses: Cursos
   date: Data
-  education: Educação
-  email: Email
+  education: Educació
+  email: Correu electrònic
   endDate: Data de término
-  fluency: Fluência
-  highlights: Destaques
-  image: Imagem
-  institution: Instituição
-  interests: Interesses
+  fluency: Fluïdesa
+  highlights: A destacar
+  image: Imatge
+  institution: Institució
+  interests: Interessos
   issuer: Emissor
-  keywords: Palavras chave
-  label: Título
+  keywords: Paraules clau
+  label: Títol
   language: Idioma
-  languages: Idiomas
-  level: Nível
-  location: Localização
-  name: Nome
-  network: Rede
-  organization: Organização
-  phone: Telefone
-  position: Posição
-  postalCode: Código postal
-  profiles: Perfis
-  projects: Projetos
-  publications: Publicações
-  publisher: Editora
-  reference: Referência
-  references: Referências
-  region: Região
-  releaseDate: Data de lançamento
-  score: Pontuação
-  skills: Habilidades
-  startDate: Data de início
-  studyType: Tipo de estudo
-  summary: Resumo
-  table_of_contents: Tópicos
-  title: Título
+  languages: Idiomes
+  level: Nivell
+  location: Ubicació
+  name: Nom
+  network: Xarxa
+  organization: Organització
+  phone: Telèfon
+  position: Posició
+  postalCode: Codi postal
+  profiles: Perfils
+  projects: Projectes
+  publications: Publicacions
+  publisher: Editor
+  reference: Referència
+  references: Referències
+  region: Regió
+  releaseDate: Data de llençament
+  score: Pontuació
+  skills: Habilitats
+  startDate: Data d'inici
+  studyType: Tipus d'estudi
+  summary: Resum
+  table_of_contents: Índex general
+  title: Títul
   url: Url
-  username: Usuário
-  volunteer: Voluntário
-  work: Trabalho
+  username: Usuari
+  volunteer: Voluntari
+  work: Feina
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
-  Desenvolvido em <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> com o tema <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>.
-  Hospedado por <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-latest_posts: últimas postagens
+  Desenvolupat amb <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> amb el tema <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>.
+  Hospedat a <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+latest_posts: últims apunts 
 months:
   long:
     january: de gener
@@ -92,43 +92,43 @@ months:
     october: oct
     november: nov
     december: dec
-news: novidades
-no_news: Nenhuma novidade no momento...
+news: novetats
+no_news: No hi ha notícies...
 pagination:
-  newer: Recentes
-  older: Antigas
-  page: página
+  newer: Recents
+  older: Antigues
+  page: pàgina
 post:
-  created_in: Criado em
-  created_by: por
-  last_updated: última atualização em
-references: Referências
+  created_in: Creat a
+  created_by: per
+  last_updated: última actualització 
+references: Referències
 related_posts:
-  description: "Aqui estão alguns artigos relacionados que você pode gostar de ler:"
-  title: Gostou de Ler este Artigo?
+  description: "També et pot interessar:"
+  title: T'ha agradat?
 search:
   dark_theme:
-    description: Muda o tema do site para escuro
-    title: Muda o tema para escuro
-  dropdown: Outras opções
-  email: Enviar um email
+    description: Canvia el tema de la pàgina a fosc 
+    title: Canvia el tema a fosc 
+  dropdown: Altres opcions 
+  email: Enviar un correu electrònic
   footer:
-    close: para fechar
-    navigate: para navegar
-    parent: voltar um nível
-    select: para selecionar
-  languages: Idiomas
+    close: per tancar
+    navigate: per navegar
+    parent: moure a nivell superior
+    select: per seleccionar
+  languages: Idiomes
   light_theme:
-    description: Muda o tema do site para claro
-    title: Muda o tema para claro
-  navigation: Menu de navegação
-  placeholder: Digite para iniciar a busca
-  posts: Postagens
-  projects: Projetos
-  socials: Redes sociais
+    description: Canvia el tema de la pàgina a clar
+    title: Canvia el tema a clar
+  navigation: Menú de navegació
+  placeholder: Escriu per començar a buscar 
+  posts: Apunts
+  projects: Projectes
+  socials: Xarxes socials
   system_theme:
-    description: Muda o tema do site para o padrão do sistema
-    title: Usa o tema padrão do sistema
+    description: Canvia el tema de la pàgina al del sistema
+    title: Canvia el tema del sistema
   theme: Tema
-selected_publications: publicações selecionadas
-site_description: Um tema simples para acadêmicos. Baseado no design do [*folio](https://github.com/bogoli/-folio).
+selected_publications: Publicacions seleccionades 
+site_description: Pàgina d'en Pol Pastells. Basada en el disseny de [*folio](https://github.com/bogoli/-folio).

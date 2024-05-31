@@ -9,7 +9,7 @@ categories:
 citation:
   bibtex: "or as a BibTeX entry:"
   introduction: "If you found this useful, please cite this as:"
-contact_note: You can even add a little note about which of these is the best way to reach you.
+contact_note: You may contact me via email o LinkedIn.
 cv:
   address: Address
   area: Area
@@ -131,4 +131,4 @@ search:
     title: Use system default theme
   theme: Theme
 selected_publications: selected publications
-site_description: A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+site_description: Pol Pastells webpage. Based on [*folio](https://github.com/bogoli/-folio) design.
