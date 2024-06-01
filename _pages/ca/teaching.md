@@ -3,11 +3,21 @@ page_id: teaching
 layout: page
 permalink: /teaching/
 title: classes
-description: Materiais de cursos que você ministrou. Substitua esse texto com sua descrição.
+description: Materials de cursos que he impartit
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+## Fonaments de LaTeX
 
-Organize your courses by years, topics, or universities, however you like!
+Curs d'introducció a LaTeX en català, enfocat a humanitats.
+
+Podeu descarrecar-vos les diapositives:
+
+- [Primera part](https://raw.github.com/pastells/curs-latex/master/ca/part1.pdf?dl=1)
+- [Segona part](https://raw.github.com/pastells/curs-latex/master/ca/part2.pdf?dl=1)
+- [Tercera part](https://raw.github.com/pastells/curs-latex/master/ca/part3.pdf?dl=1)
+
+O veure el codi del curs:
+
+[https://github.com/Pastells/curs-latex](https://github.com/Pastells/curs-latex)

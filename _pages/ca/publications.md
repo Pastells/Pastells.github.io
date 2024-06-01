@@ -2,8 +2,8 @@
 page_id: publications
 layout: page
 permalink: /publications/
-title: articles
-description: publicações por categoria em ordem cronológica reversa. gerado pelo jekyll-scholar.
+title: articles científics
+description: publicacions a revistes i congressos
 nav: true
 nav_order: 2
 ---

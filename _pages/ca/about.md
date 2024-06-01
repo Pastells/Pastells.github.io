@@ -18,6 +18,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-Soc Físic Teòric especialitzat en ML i IA.
-Actualment treballo com a Enginyer de Recerca en PLN al CLiC (UB).
+Soc Físic Teòric especialitzat en Aprenentatge Automàtic i Intel·ligència Artificial.
+Actualment treballo com a Enginyer de Recerca en Processament del Llenguatge Natural al CLiC (UB).
 Soc un apassionat de la ciència i actualment estic cursant una segon grau en lingüística general.
