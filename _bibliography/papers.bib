@@ -1,70 +1,6 @@
 ---
 ---
 
-@article{alos2024epydgga,
-	title        = {ePyDGGA: automatic configuration for fitting epidemic curves},
-	author       = {
-		Al{\`o}s, Josep and Ans{\'o}tegui, Carlos and Dotu, Ivan and
-		Garc{\'\i}a-Herranz, Manuel and Pastells, Pol and Torres, Eduard
-	},
-	year         = 2024,
-	journal      = {Scientific Reports},
-	publisher    = {Nature Publishing Group UK London},
-	volume       = 14,
-	number       = 1,
-	pages        = 784,
-	abstract     = {
-		Many epidemiological models and algorithms are used to fit the parameters of
-		a given epidemic curve. On many occasions, fitting algorithms are interleaved
-		with the actual epidemic models, which yields combinations of
-		model-parameters that are hard to compare among themselves. Here, we provide
-		a model-agnostic framework for epidemic parameter fitting that can (fairly)
-		compare different epidemic models without jeopardizing the quality of the
-		fitted parameters. Briefly, we have developed a Python framework that expects
-		a Python function (epidemic model) and epidemic data and performs parameter
-		fitting using automatic configuration. Our framework is capable of fitting
-		parameters for any type of epidemic model, as long as it is provided as a
-		Python function (or even in a different programming language). Moreover, we
-		provide the code for different types of models, as well as the implementation
-		of 4 concrete models with data to fit them. Documentation, code and examples
-		can be found at https://ulog.udl.cat/static/doc/epidemic-gga/html/index.html.
-	},
-	html         = {https://www.nature.com/articles/s41598-023-43958-2},
-	code         = {https://github.com/Pastells/covid_models},
-    abbr         = {Scientific Reports},
-    preview      = {SIR_equations.png},
-}
-@article{ghiozzi2024modeling,
-	title        = {Modeling of frequency-sweeping Alfv{\'e}n modes in the TJ-II stellarator},
-	author       = {
-		Ghiozzi, AG and Mantsinen, MJ and Pastells, Pol and Spong, DA and Melnikov,
-		AV and Eliseev, LG and Sharapov, SE
-	},
-	year         = 2024,
-	journal      = {Nuclear Fusion},
-	publisher    = {IOP Publishing},
-	volume       = 64,
-	number       = 3,
-	pages        = {036005},
-	abstract     = {
-		Alfvénic activity has been observed in the TJ-II stellarator which resembles
-		the frequency sweeping demonstrated by Alfvén cascade modes in tokamaks. A
-		numerical validation study was conducted using a reduced magnetohydrodynamic
-		(MHD) model to show that such modes could only have been observed in
-		discharges where the rotational transform profile was non-monotonic. During
-		experiments, coil current was varied which resulted in shifting of the
-		minimum value of the rotational transform profile. To mimic this effect, we
-		study the Alfvénic activity predicted by the reduced MHD model for a set of
-		input rotational transform profiles with varying minima. A mode is found
-		whose toroidal and poloidal mode numbers match those predicted in experiments
-		which sweeps downward/upward in frequency as the minimum value of the
-		rotational transform profile is increased/decreased. The results serve as a
-		demonstration of the validity and utility of MHD spectroscopy.
-	},
-	html         = {https://iopscience.iop.org/article/10.1088/1741-4326/ad1c93},
-    abbr         = {Nuclear Fusion},
-    preview      = {TJ-II_Coils.png},
-}
 @inproceedings{schmeisser-nieto-etal-2024-human-vs,
 	title        = {Human vs. Machine Perceptions on Immigration Stereotypes},
 	author       = {
@@ -113,3 +49,70 @@
     preview      = {human_vs_machine.png},
 }
 
+
+@article{ghiozzi2024modeling,
+	title        = {Modeling of frequency-sweeping Alfv{\'e}n modes in the TJ-II stellarator},
+	author       = {
+		Ghiozzi, AG and Mantsinen, MJ and Pastells, Pol and Spong, DA and Melnikov,
+		AV and Eliseev, LG and Sharapov, SE
+	},
+	year         = 2024,
+	journal      = {Nuclear Fusion},
+	publisher    = {IOP Publishing},
+	volume       = 64,
+	number       = 3,
+	pages        = {036005},
+	abstract     = {
+		Alfvénic activity has been observed in the TJ-II stellarator which resembles
+		the frequency sweeping demonstrated by Alfvén cascade modes in tokamaks. A
+		numerical validation study was conducted using a reduced magnetohydrodynamic
+		(MHD) model to show that such modes could only have been observed in
+		discharges where the rotational transform profile was non-monotonic. During
+		experiments, coil current was varied which resulted in shifting of the
+		minimum value of the rotational transform profile. To mimic this effect, we
+		study the Alfvénic activity predicted by the reduced MHD model for a set of
+		input rotational transform profiles with varying minima. A mode is found
+		whose toroidal and poloidal mode numbers match those predicted in experiments
+		which sweeps downward/upward in frequency as the minimum value of the
+		rotational transform profile is increased/decreased. The results serve as a
+		demonstration of the validity and utility of MHD spectroscopy.
+	},
+	html         = {https://iopscience.iop.org/article/10.1088/1741-4326/ad1c93},
+    abbr         = {Nuclear Fusion},
+    preview      = {TJ-II_Coils.png},
+}
+
+
+@article{alos2024epydgga,
+	title        = {ePyDGGA: automatic configuration for fitting epidemic curves},
+	author       = {
+		Al{\`o}s, Josep and Ans{\'o}tegui, Carlos and Dotu, Ivan and
+		Garc{\'\i}a-Herranz, Manuel and Pastells, Pol and Torres, Eduard
+	},
+	year         = 2024,
+	journal      = {Scientific Reports},
+	publisher    = {Nature Publishing Group UK London},
+	volume       = 14,
+	number       = 1,
+	pages        = 784,
+	abstract     = {
+		Many epidemiological models and algorithms are used to fit the parameters of
+		a given epidemic curve. On many occasions, fitting algorithms are interleaved
+		with the actual epidemic models, which yields combinations of
+		model-parameters that are hard to compare among themselves. Here, we provide
+		a model-agnostic framework for epidemic parameter fitting that can (fairly)
+		compare different epidemic models without jeopardizing the quality of the
+		fitted parameters. Briefly, we have developed a Python framework that expects
+		a Python function (epidemic model) and epidemic data and performs parameter
+		fitting using automatic configuration. Our framework is capable of fitting
+		parameters for any type of epidemic model, as long as it is provided as a
+		Python function (or even in a different programming language). Moreover, we
+		provide the code for different types of models, as well as the implementation
+		of 4 concrete models with data to fit them. Documentation, code and examples
+		can be found at https://ulog.udl.cat/static/doc/epidemic-gga/html/index.html.
+	},
+	html         = {https://www.nature.com/articles/s41598-023-43958-2},
+	code         = {https://github.com/Pastells/covid_models},
+    abbr         = {Scientific Reports},
+    preview      = {SIR_equations.png},
+}
