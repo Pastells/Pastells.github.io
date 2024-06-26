@@ -12,11 +12,11 @@ nav_order: 6
 
 Curs d'introducció a LaTeX en català, enfocat a humanitats.
 
-Podeu descarrecar-vos les diapositives:
+El curs està pensat per fer en tres sessions de dues hores, tot i que la tercera part és molt llarga i cal triar quin material es vol prioritzar.
 
-- [Primera part](https://raw.github.com/pastells/curs-latex/master/ca/part1.pdf?dl=1)
-- [Segona part](https://raw.github.com/pastells/curs-latex/master/ca/part2.pdf?dl=1)
-- [Tercera part](https://raw.github.com/pastells/curs-latex/master/ca/part3.pdf?dl=1)
+- [Primera part](https://raw.github.com/pastells/curs-latex/master/ca/part1.pdf?dl=1) - Sintaxi, entorns, paquets, figures i taules
+- [Segona part](https://raw.github.com/pastells/curs-latex/master/ca/part2.pdf?dl=1) - Títol, seccions, referències creuades i bibliografia.
+- [Tercera part](https://raw.github.com/pastells/curs-latex/master/ca/part3.pdf?dl=1) - Paquets lingüística (`linguex` i `tipa`), notes i comentaris, presentacions amb `beamer`.
 
 O veure el codi del curs:
 
