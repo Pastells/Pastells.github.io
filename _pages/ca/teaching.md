@@ -21,7 +21,7 @@ El curs està pensat per fer en tres sessions de dues hores, tot i que la tercer
 O veure el codi del curs: [Pastells/curs-latex](https://github.com/Pastells/curs-latex)
 
 
-## Python avançat (en procés de cració)
+## Python avançat (en procés de creació)
 
 Curs està orientat a humanistes que vulguin ampliar els seus coneixements de programació amb Python.
 En concret, estarà enfocat al processament del llenguatge natural.
