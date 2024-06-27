@@ -18,6 +18,14 @@ El curs està pensat per fer en tres sessions de dues hores, tot i que la tercer
 - [Segona part](https://raw.github.com/pastells/curs-latex/master/ca/part2.pdf?dl=1) - Títol, seccions, referències creuades i bibliografia.
 - [Tercera part](https://raw.github.com/pastells/curs-latex/master/ca/part3.pdf?dl=1) - Paquets lingüística (`linguex` i `tipa`), notes i comentaris, presentacions amb `beamer`.
 
-O veure el codi del curs:
+O veure el codi del curs: [Pastells/curs-latex](https://github.com/Pastells/curs-latex)
 
-[https://github.com/Pastells/curs-latex](https://github.com/Pastells/curs-latex)
+
+## Python avançat (en procés de cració)
+
+Curs està orientat a humanistes que vulguin ampliar els seus coneixements de programació amb Python.
+En concret, estarà enfocat al processament del llenguatge natural.
+
+Requisits: Haver fet servir Python (o un altre llenguatge de programació) alguna vegada. Saber què és una variable i quins són els seus tipus bàsics, què són els bucles, les decisions (if i else) i les funcions, i com treballar amb tuples, arrays i diccionaris.
+
+El material del curs es pot trobar a GitHub: [Pastells/python_avan](https://github.com/Pastells/python_avan)
