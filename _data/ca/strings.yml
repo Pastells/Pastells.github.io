@@ -1,14 +1,14 @@
-archive_category: un arxiu d'apunts a aquesta categoria 
+archive_category: un arxiu d'apunts a aquesta categoria
 archive_tag: un arxiu d'apunts amb aquest tag
-archive_year: un arxiu d'apunts d'aquest any 
+archive_year: un arxiu d'apunts d'aquest any
 blog:
   navigation_title: blog
 categories:
   fun: diversió
   work: feina
 citation:
-  bibtex: "o com a entrade de BibTeX:"
-  introduction: "Si t'ha semblat útil, cita-ho:"
+  bibtex: 'o com a entrade de BibTeX:'
+  introduction: 'Si t'ha semblat útil, cita-ho:'
 contact_note: Em podeu contactar per correu electrònic o LinkedIn.
 cv:
   address: Adreça
@@ -18,7 +18,7 @@ cv:
   basics: Informació general
   certificates: Certificats
   city: Ciutat
-  countryCode: Codi de país 
+  countryCode: Codi de país
   courses: Cursos
   date: Data
   education: Educació
@@ -62,9 +62,10 @@ cv:
   volunteer: Voluntari
   work: Feina
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
-  Desenvolupat amb <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> amb el tema <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>.
-  Hospedat a <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-latest_posts: últims apunts 
+  Desenvolupat amb <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> amb el tema <a
+  href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>. Hospedat a <a
+  href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+latest_posts: últims apunts
 months:
   long:
     january: de gener
@@ -101,16 +102,16 @@ pagination:
 post:
   created_in: Creat a
   created_by: per
-  last_updated: última actualització 
+  last_updated: última actualització
 references: Referències
 related_posts:
-  description: "També et pot interessar:"
+  description: 'També et pot interessar:'
   title: T'ha agradat?
 search:
   dark_theme:
-    description: Canvia el tema de la pàgina a fosc 
-    title: Canvia el tema a fosc 
-  dropdown: Altres opcions 
+    description: Canvia el tema de la pàgina a fosc
+    title: Canvia el tema a fosc
+  dropdown: Altres opcions
   email: Enviar un correu electrònic
   footer:
     close: per tancar
@@ -122,7 +123,7 @@ search:
     description: Canvia el tema de la pàgina a clar
     title: Canvia el tema a clar
   navigation: Menú de navegació
-  placeholder: Escriu per començar a buscar 
+  placeholder: Escriu per començar a buscar
   posts: Apunts
   projects: Projectes
   socials: Xarxes socials
@@ -130,5 +131,6 @@ search:
     description: Canvia el tema de la pàgina al del sistema
     title: Canvia el tema del sistema
   theme: Tema
-selected_publications: Publicacions seleccionades 
-site_description: Pàgina d'en Pol Pastells. Basada en el disseny de [*folio](https://github.com/bogoli/-folio).
+selected_publications: Publicacions seleccionades
+site_description:
+  Pàgina d'en Pol Pastells. Basada en el disseny de [*folio](https://github.com/bogoli/-folio).

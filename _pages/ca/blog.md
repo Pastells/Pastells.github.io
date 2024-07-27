@@ -3,8 +3,8 @@ page_id: blog
 layout: default
 permalink: /blog/
 title: blog
-blog_name: 
-description: 
+blog_name:
+description:
 nav: true
 nav_order: 1
 pagination:
@@ -59,8 +59,7 @@ pagination:
   </div>
   {% endif %}
 
-{% assign featured_posts = site.posts | where: "featured", "true" %}
-{% if featured_posts.size > 0 %}
+{% assign featured_posts = site.posts | where: "featured", "true" %} {% if featured_posts.size > 0 %}
 <br>
 
 <div class="container featured-posts">
@@ -186,8 +185,6 @@ pagination:
 
   </ul>
 
-{% if page.pagination.enabled %}
-{% include pagination.liquid %}
-{% endif %}
+{% if page.pagination.enabled %} {% include pagination.liquid %} {% endif %}
 
 </div>

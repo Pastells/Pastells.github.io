@@ -5,122 +5,134 @@ permalink: /stroop/
 ---
 
 <div class="experiment-container">
-    <div id="intro">
-        <p>
-            L'efecte Stroop és un fenomen psicolingüístic on la interferència entre procés cognitiu de llegir paraules i el de llegir els colors en què estan escrites provoca un retard o errors en la tasca.
+  <div id="intro">
+    <p>
+      L'efecte Stroop és un fenomen psicolingüístic on la interferència entre procés cognitiu de llegir
+      paraules i el de llegir els colors en què estan escrites provoca un retard o errors en la tasca.
+      Seguidament, faràs dos experiments breus per comprovar-lo:
+    </p>
 
-            Seguidament, faràs dos experiments breus per comprovar-lo:
-            <ul>
-                <li>A l'experiment 1 senzillament hauràs de llegir tots els noms de colors en veu alta, que tindran el mateix color que descriuen, d'esquerra a dreta.</li>
-                <li>A l'experiment 2 hauràs de dir en veu alta el color, i no el nom del text, que serà diferent. També llegint d'esquerra a dreta.</li>
-            </ul>
-            Abans de cada experiment es mostrarà un compte enrere de 3 segons. Un cop acabis de llegir prem el botó d'acabar. Al final omple el breu formulari.
-        <form>
-            <button type="button" onclick="startExperiment()">Comença l'experiment</button>
-        </form>
-    </div>
+    <ul>
+      <li>
+        A l'experiment 1 senzillament hauràs de llegir tots els noms de colors en veu alta, que tindran
+        el mateix color que descriuen, d'esquerra a dreta.
+      </li>
+      <li>
+        A l'experiment 2 hauràs de dir en veu alta el color, i no el nom del text, que serà diferent.
+        També llegint d'esquerra a dreta.
+      </li>
+    </ul>
+    Abans de cada experiment es mostrarà un compte enrere de 3 segons. Un cop acabis de llegir prem el
+    botó d'acabar. Al final omple el breu formulari.
+    <form>
+      <button type="button" onclick="startExperiment()">Comença l'experiment</button>
+    </form>
+  </div>
 
-    <div id="experiment" style="display:none;">
-        <h2 id="experiment-title">Experiment 1</h2>
-        <div id="countdown"></div>
-        <div id="image-container" style="display:none;">
-            <img id="stroop-image" src="" alt="Stroop Image">
-            <button onclick="recordTime()">He acabat</button>
-        </div>
+  <div id="experiment" style="display: none">
+    <h2 id="experiment-title">Experiment 1</h2>
+    <div id="countdown"></div>
+    <div id="image-container" style="display: none">
+      <img id="stroop-image" src="" alt="Stroop Image" />
+      <button onclick="recordTime()">He acabat</button>
     </div>
+  </div>
 
-    <div id="results" style="display:none;">
-        <h2>Resultats</h2>
-        <p id="time-result"></p>
-        <p>
-            <a id="result-url" href="#">Si us plau, emplena el qüestionari, són 2 segons (els temps es posen automàticament).</a></p>
-    </div>
+  <div id="results" style="display: none">
+    <h2>Resultats</h2>
+    <p id="time-result"></p>
+    <p>
+      <a id="result-url" href="#"
+        >Si us plau, emplena el qüestionari, són 2 segons (els temps es posen automàticament).</a
+      >
+    </p>
+  </div>
 </div>
 <script>
-    let startTime, endTime;
-    let currentImage = 0;
-    const images = ['../../assets/img/stroop_cat/stroop1.png', '../../assets/img/stroop_cat/stroop2.png'];
-    const titles = ['Experiment 1', 'Experiment 2 - digues el color, no el text'];
-    let times = [];
+  let startTime, endTime;
+  let currentImage = 0;
+  const images = ['../../assets/img/stroop_cat/stroop1.png', '../../assets/img/stroop_cat/stroop2.png'];
+  const titles = ['Experiment 1', 'Experiment 2 - digues el color, no el text'];
+  let times = [];
 
-    function startExperiment() {
-        document.getElementById('intro').style.display = 'none';
-        document.getElementById('experiment').style.display = 'block';
-        startCountdown(3);  // Countdown from 3 seconds
+  function startExperiment() {
+    document.getElementById('intro').style.display = 'none';
+    document.getElementById('experiment').style.display = 'block';
+    startCountdown(3); // Countdown from 3 seconds
+  }
+
+  function startCountdown(seconds) {
+    let countdown = document.getElementById('countdown');
+    countdown.innerHTML = seconds;
+
+    let interval = setInterval(() => {
+      seconds--;
+      countdown.innerHTML = seconds;
+      if (seconds <= 0) {
+        clearInterval(interval);
+        showImage();
+      }
+    }, 1000);
+  }
+
+  function showImage() {
+    if (currentImage < images.length) {
+      document.getElementById('countdown').style.display = 'none';
+      document.getElementById('image-container').style.display = 'block';
+      document.getElementById('stroop-image').src = images[currentImage];
+      startTime = new Date().getTime();
+    } else {
+      displayResults();
     }
+  }
 
-    function startCountdown(seconds) {
-        let countdown = document.getElementById('countdown');
-        countdown.innerHTML = seconds;
+  function recordTime() {
+    endTime = new Date().getTime();
+    let timeTaken = (endTime - startTime) / 1000; // Time in seconds
+    timeTaken = timeTaken.toFixed(1);
+    times.push(timeTaken);
+    document.getElementById('time-result').innerHTML +=
+      'Temps imatge ' + (currentImage + 1) + ': ' + timeTaken + ' segons<br>';
 
-        let interval = setInterval(() => {
-            seconds--;
-            countdown.innerHTML = seconds;
-            if (seconds <= 0) {
-                clearInterval(interval);
-                showImage();
-            }
-        }, 1000);
+    document.getElementById('image-container').style.display = 'none';
+    currentImage++;
+    if (currentImage < images.length) {
+      document.getElementById('experiment-title').innerText = titles[currentImage];
+      document.getElementById('countdown').style.display = 'block'; // Ensure countdown is visible
+      startCountdown(3); // Countdown before showing the next image
+    } else {
+      displayResults();
     }
+  }
 
-    function showImage() {
-        if (currentImage < images.length) {
-            document.getElementById('countdown').style.display = 'none';
-            document.getElementById('image-container').style.display = 'block';
-            document.getElementById('stroop-image').src = images[currentImage];
-            startTime = new Date().getTime();
-        } else {
-            displayResults();
-        }
-    }
-
-    function recordTime() {
-        endTime = new Date().getTime();
-        let timeTaken = (endTime - startTime) / 1000; // Time in seconds
-        timeTaken = timeTaken.toFixed(1);
-        times.push(timeTaken);
-        document.getElementById('time-result').innerHTML += 'Temps imatge ' + (currentImage + 1) + ': ' + timeTaken + ' segons<br>';
-
-        document.getElementById('image-container').style.display = 'none';
-        currentImage++;
-        if (currentImage < images.length) {
-            document.getElementById('experiment-title').innerText = titles[currentImage];
-            document.getElementById('countdown').style.display = 'block';  // Ensure countdown is visible
-            startCountdown(3);  // Countdown before showing the next image
-        } else {
-            displayResults();
-        }
-    }
-
-    function displayResults() {
-        document.getElementById('experiment').style.display = 'none';
-        document.getElementById('results').style.display = 'block';
-        document.getElementById('result-url').href = `https://docs.google.com/forms/d/e/1FAIpQLSfoo-QKt_LYXi9xGK4CbWwBTTd91BAHL6rECUKboi8DrsVGRw/viewform?usp=pp_url&entry.809893713=Dona&entry.803873056=${times[0]}&entry.513875364=${times[1]}`
-    }
-
+  function displayResults() {
+    document.getElementById('experiment').style.display = 'none';
+    document.getElementById('results').style.display = 'block';
+    document.getElementById('result-url').href =
+      `https://docs.google.com/forms/d/e/1FAIpQLSfoo-QKt_LYXi9xGK4CbWwBTTd91BAHL6rECUKboi8DrsVGRw/viewform?usp=pp_url&entry.809893713=Dona&entry.803873056=${times[0]}&entry.513875364=${times[1]}`;
+  }
 </script>
 
-
 <style>
-    #intro{
-        max-width: 600px;
-        margin: 0 auto;
-      text-align: justify;
-    }
+  #intro {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: justify;
+  }
 
-    .experiment-container {
-        text-align: center;
-        margin: 50px;
-    }
+  .experiment-container {
+    text-align: center;
+    margin: 50px;
+  }
 
-    #countdown {
-        font-size: 2em;
-        margin-bottom: 20px;
-    }
+  #countdown {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
 
-    #image-container img {
-        max-width: 100%;
-        height: auto;
-        margin-bottom: 20px;
-    }
+  #image-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
 </style>

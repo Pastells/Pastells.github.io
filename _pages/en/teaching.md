@@ -22,9 +22,11 @@ Or see the course code: [Pastells/curs-latex](https://github.com/Pastells/curs-l
 
 ## Advanced Python (in Catalan)
 
-Course aimed at humanists who want to expand their knowledge of programming with Python.
-Specifically, it will be focused on natural language processing.
+Course aimed at humanists who want to expand their knowledge of programming with Python. Specifically, it
+will be focused on natural language processing.
 
-Requirements: Have used Python (or another programming language) at some point. Know what a variable is and what are its basic types, what are loops, decisions (if and else) and functions, and how to work with tuples, arrays and dictionaries.
+Requirements: Have used Python (or another programming language) at some point. Know what a variable is
+and what are its basic types, what are loops, decisions (if and else) and functions, and how to work with
+tuples, arrays and dictionaries.
 
 Course material can be found on GitHub: [Pastells/python_avan](https://github.com/Pastells/python_avan)
