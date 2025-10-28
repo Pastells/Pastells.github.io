@@ -2,7 +2,7 @@
 page_id: teaching
 layout: page
 permalink: /teaching/
-title: classes
+title: Classes
 description: Materials de cursos que he impartit
 nav: true
 nav_order: 6

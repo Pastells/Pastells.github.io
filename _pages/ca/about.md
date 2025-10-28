@@ -1,7 +1,7 @@
 ---
 page_id: about
 layout: about
-title: sobre mi
+title: Sobre mi
 permalink: /
 subtitle:
   Tècnic de PLN a la Universitat de Barcelona, <a href='https://clic.ub.edu/en/que-es-clic'</a>CLiC Group
@@ -14,7 +14,7 @@ profile:
 
 news: false # includes a list of news items
 latest_posts: true # includes a list of the newest posts
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 

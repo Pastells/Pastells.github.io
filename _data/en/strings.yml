@@ -130,5 +130,5 @@ search:
     description: Change the theme of the site to System Default
     title: Use system default theme
   theme: Theme
-selected_publications: selected publications
+selected_publications: Selected publications
 site_description: Pol Pastells webpage. Based on [*folio](https://github.com/bogoli/-folio) design.

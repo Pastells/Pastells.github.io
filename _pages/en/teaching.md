@@ -2,7 +2,7 @@
 page_id: teaching
 layout: page
 permalink: /teaching/
-title: teaching
+title: Teaching
 description: Materials of courses I've imparted
 nav: true
 nav_order: 6

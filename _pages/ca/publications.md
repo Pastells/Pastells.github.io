@@ -2,7 +2,7 @@
 page_id: publications
 layout: page
 permalink: /publications/
-title: articles científics
+title: Articles científics
 description: publicacions a revistes i conferències
 nav: true
 nav_order: 2
