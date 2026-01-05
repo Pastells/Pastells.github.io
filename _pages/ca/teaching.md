@@ -8,11 +8,21 @@ nav: true
 nav_order: 6
 ---
 
+Imparteixo cursos de programació al Servei de Tecnologia Lingüística (Universitat de Barcelona).
+Cada primer semestre es dona una introducció a Python pensada per perfiles d'humanitats (divendres al matí d'octubre a desembre).
+Vegeu la llista de cursos: <https://stel2.ub.edu/agenda/cursos-de-formacio>
+
+## Tractament de dades textuals i codificades
+
+Impareixo part de l'assignatura "Tractament de dades textuals i codificades" al [Curs d'especialització en Bioinformàtica Clínica de l'Eixample Clínic](https://eixampleclinic.es/ca/cursos-formacion-reglada/bioinformatica-clinica/).
+
+Material del curs: [Pastells/Tractament-de-Dades-Textuals-i-Codificades](https://github.com/Pastells/Tractament-de-Dades-Textuals-i-Codificades)
+
 ## Fonaments de LaTeX
 
 Curs d'introducció a LaTeX en català, enfocat a humanitats.
 
-El curs està pensat per fer en tres sessions de dues hores, tot i que la tercera part és molt llarga i
+El curs està pensat per fer en tres sessions de dues hores, tot i que la tercera part és llarga i
 cal triar quin material es vol prioritzar.
 
 - [Primera part](https://raw.github.com/pastells/curs-latex/master/ca/part1.pdf?dl=1) - Sintaxi, entorns,
@@ -46,5 +56,5 @@ El material del curs es pot trobar a GitHub:
    4. Seaborn
 3. Model generació noms amb N-grames
 4. Estructura projectes i guia d'estil
-5. Introducció a les classes (si no s'han vist)
+5. Introducció a les classes
 6. HuggingFace
