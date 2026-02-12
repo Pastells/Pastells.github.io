@@ -3,7 +3,7 @@ page_id: publications
 layout: page
 permalink: /publications/
 title: Articles científics
-description: publicacions a revistes i conferències
+description: Publicacions a revistes i conferències. * significa aportació equivalent.
 nav: true
 nav_order: 2
 ---

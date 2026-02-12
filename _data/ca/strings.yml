@@ -65,7 +65,7 @@ footer_text: > # the ">" symbol means to ignore newlines until "titles:"
   Desenvolupat amb <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> amb el tema <a
   href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>. Hospedat a <a
   href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-latest_posts: últims apunts
+latest_posts: Últims apunts
 months:
   long:
     january: de gener

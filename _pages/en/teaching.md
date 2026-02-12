@@ -8,6 +8,9 @@ nav: true
 nav_order: 6
 ---
 
+I teach mainly in Catalan, so more information is available at <a href="{{ site.baseurl_root }}/ca{{ page.url }}">Classes</a>
+.
+
 ## LaTeX fundamentals (in Catalan)
 
 Introductory course with a focus on humanities.

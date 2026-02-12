@@ -3,7 +3,7 @@ page_id: publications
 layout: page
 permalink: /publications/
 title: Publications
-description: paper publications in journals and congresses.
+description: Paper publications in journals and congresses. * denotes equal contribution.
 nav: true
 nav_order: 2
 ---

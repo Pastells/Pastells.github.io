@@ -3,7 +3,7 @@ page_id: teaching
 layout: page
 permalink: /teaching/
 title: Classes
-description: Materials de cursos que he impartit
+description: Materials de cursos que he fet
 nav: true
 nav_order: 6
 ---
@@ -14,7 +14,7 @@ Vegeu la llista de cursos: <https://stel2.ub.edu/agenda/cursos-de-formacio>
 
 ## Tractament de dades textuals i codificades
 
-Impareixo part de l'assignatura "Tractament de dades textuals i codificades" al [Curs d'especialització en Bioinformàtica Clínica de l'Eixample Clínic](https://eixampleclinic.es/ca/cursos-formacion-reglada/bioinformatica-clinica/).
+També faig part de l'assignatura "Tractament de dades textuals i codificades" al [Curs d'especialització en Bioinformàtica Clínica de l'Eixample Clínic](https://eixampleclinic.es/ca/cursos-formacion-reglada/bioinformatica-clinica/).
 
 Material del curs: [Pastells/Tractament-de-Dades-Textuals-i-Codificades](https://github.com/Pastells/Tractament-de-Dades-Textuals-i-Codificades)
 
