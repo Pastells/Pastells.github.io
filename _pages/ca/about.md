@@ -3,7 +3,7 @@ page_id: about
 layout: about
 title: Sobre mi
 permalink: /
-subtitle: Tècnic de PLN a la Universitat de Barcelona, <a href='https://clic.ub.edu/en/que-es-clic'</a>CLiC Group
+subtitle: Enginyer de Recerca en IA a <a href='https://www.ailylabs.com/'>Aily Labs</a>
 
 profile:
   align: right
@@ -17,6 +17,4 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-Soc Físic Teòric especialitzat en Aprenentatge Automàtic i Intel·ligència Artificial. Actualment treballo
-com a Enginyer de Recerca en Processament del Llenguatge Natural al CLiC (UB). Soc un apassionat de la
-ciència i estic cursant una segon grau en lingüística general.
+Soc físic i lingüista especialitzat en Aprenentatge Automàtic i Intel·ligència Artificial. Treballo com a Enginyer de Recerca en IA a Aily Labs. Soc un apassionat de la ciència i de la seva intersecció amb la programació.

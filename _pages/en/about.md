@@ -3,9 +3,7 @@ page_id: about
 layout: about
 title: About
 permalink: /
-subtitle:
-  NLP Research Engineer @ University of Barcelona, <a href='https://clic.ub.edu/en/que-es-clic'</a>CLiC
-  Group
+subtitle: AI Research Engineer @ <a href='https://www.ailylabs.com/'>Aily Labs</a>
 
 profile:
   align: right
@@ -19,6 +17,5 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am a Theoretical Physicist specialized in Machine Learning and Artificial Intelligence. I work as an
-Natural Language Processing Research Engineer at the CliC Group at the University of Barcelona. I am
-deeply interested in science and currently pursuing a second bachelor’s degree in general linguistics.
+I am a physicist and linguist, specialized in Machine Learning
+and Artificial Intelligence. I work as an AI Research Engineer at Aily Labs. I am deeply interested in science its intersection with programming.
