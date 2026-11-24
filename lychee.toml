@@ -1,0 +1,33 @@
+# Lychee configuration for the link-checking workflows.
+# See https://lychee.cli.rs for the full list of options.
+
+# Give slow hosts a chance and retry transient network errors.
+timeout = 30
+max_retries = 3
+retry_wait_time = 5
+
+# Treat rate limiting (HTTP 429) as "not broken" so publisher throttling does
+# not fail the workflow. Genuine client/server errors still fail.
+accept = ["100..=103", "200..=299", "429"]
+
+# Markdown files with links that cannot be resolved without rendering Jekyll
+# (Liquid tags) or that are intentionally skipped. Rendered links are checked
+# by the "Check for broken links on site" workflow against _site.
+exclude_path = [
+  "README.md",
+  "_pages/en/404.md",
+  "_pages/ca/404.md",
+  "_pages/en/blog.md",
+  "_pages/ca/blog.md",
+  "_pages/en/teaching.md",
+  "_posts/en/2018-12-22-distill.md",
+  "_posts/ca/2018-12-22-distill.md",
+]
+
+exclude = [
+  # AIP Publishing returns HTTP 403 to automated clients.
+  '^https://doi\.org/10\.1063/',
+
+  # The UVA server that hosted the SEPLN 2024 papers currently times out.
+  '^https://besaya\.infor\.uva\.es/sepln24/paper16\.pdf$',
+]
