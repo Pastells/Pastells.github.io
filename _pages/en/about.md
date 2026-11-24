@@ -18,4 +18,4 @@ social: false # includes social icons at the bottom of the page
 ---
 
 I am a physicist and linguist, specialized in Machine Learning
-and Artificial Intelligence. I work as an AI Research Engineer at Aily Labs. I am deeply interested in science its intersection with programming.
+and Artificial Intelligence. I work as an AI Research Engineer at Aily Labs. I am deeply interested in science and its intersection with programming.
