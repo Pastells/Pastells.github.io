@@ -21,10 +21,10 @@ de transformació rotacional de cisalla inversa. Les configuracions de cisalla i
 recentment per la seva millora en la qualitat del confinament magnètic. Tenint en compte això, és
 necessari un estudi addicional dels RSAE.
 
-[Els RSAE, també anomenats cascades d'Alfvén, s'han pogut observar](http://10.0.4.64/0029-5515/54/12/123002)
-a [l'stellerator TJ-II](https://www.wikiwand.com/es/TJ-II) en descàrregues de plasma d'hidrogen amb
+[Els RSAE, també anomenats cascades d'Alfvén, s'han pogut observar](https://doi.org/10.1088/0029-5515/54/12/123002)
+a [l'stellerator TJ-II](https://es.wikipedia.org/wiki/TJ-II) en descàrregues de plasma d'hidrogen amb
 diferents configuracions magnètiques. **A la nostra recent publicació a la revista Nuclear Fusion,
-simulem els esdeveniments en cascada utilitzant els codis [STELLGAP](ttps://doi.org/10.1063/1.1590316) i
+simulem els esdeveniments en cascada utilitzant els codis [STELLGAP](https://doi.org/10.1063/1.1590316) i
 [AE3D](https://doi.org/10.1063/1.3313818), i estudiem la relació entre la freqüència dels modes que
 formen la cascada i el valor mínim del perfil de transformació rotacional.** Les simulacions prediuen
 l'aparició d'una cascada de freqüència descendent formada per un conjunt de modes amb nombre de mode

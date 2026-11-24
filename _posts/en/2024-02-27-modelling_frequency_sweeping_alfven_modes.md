@@ -19,11 +19,11 @@ in devices with reversed shear rotational transform profiles. Reversed shear con
 been of interest because of their enhancement to confinement quality. With this in mind, further study of
 RSAEs is necessary.
 
-[RSAEs, also called Alfvén cascades, were observed](http://10.0.4.64/0029-5515/54/12/123002) in the
-[TJ-II flexible heliac](http://fusionwiki.ciemat.es/wiki/TJ-II) in hydrogen plasma discharges with
+[RSAEs, also called Alfvén cascades, were observed](https://doi.org/10.1088/0029-5515/54/12/123002) in the
+[TJ-II flexible heliac](https://en.wikipedia.org/wiki/TJ-II) in hydrogen plasma discharges with
 varying magnetic configurations. **In
 [our recent journal publication in Nuclear Fusion](https://iopscience.iop.org/article/10.1088/1741-4326/ad1c93),
-we simulate the cascade events using the [STELLGAP](ttps://doi.org/10.1063/1.1590316) and
+we simulate the cascade events using the [STELLGAP](https://doi.org/10.1063/1.1590316) and
 [AE3D](https://doi.org/10.1063/1.3313818) codes and study the relationship between the frequency of the
 modes that form the cascade and the minimum value of the rotational transform profile.** The simulations
 predict the appearance of a cascade sweeping downward in frequency formed by a set of modes with poloidal

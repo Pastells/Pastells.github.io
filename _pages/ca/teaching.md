@@ -10,7 +10,7 @@ nav_order: 6
 
 Imparteixo cursos de programació al Servei de Tecnologia Lingüística (Universitat de Barcelona).
 Cada primer semestre es dona una introducció a Python pensada per perfiles d'humanitats (divendres al matí d'octubre a desembre).
-Vegeu la llista de cursos: <https://stel2.ub.edu/agenda/cursos-de-formacio>
+Vegeu la llista de cursos: <https://stel.ub.edu/agenda/cursos-de-formacio>
 
 ## Tractament de dades textuals i codificades
 
